@@ -4,6 +4,8 @@
 
 # Reviewing JavaScript Object Orientation
 
+?:
+
 ```javascript
 class Tree {
   constructor(type) {
@@ -12,7 +14,7 @@ class Tree {
 }
 ```
 
-?: How would we create an instance of the above `class`?
+How would we create an instance of the above `class`?
 
 ( ) `Tree.initialize(‘Oak’)` (X) `new Tree(‘Oak’)` ( ) `new Tree().constructor(‘Oak’)` ( ) `let oak = new Tree(); Tree.type = ‘Oak’`
 
@@ -24,6 +26,8 @@ class Tree {
 
 [X] `oak.type = ‘maple’` [ ] `oak.properties(‘type’) = ‘maple’` [ ] `oak(‘type’) = ‘maple’` [X] `oak[‘type’] = ‘maple’`
 
+?:
+
 ```javascript
 class Example {
   constructor(text) {
@@ -32,7 +36,7 @@ class Example {
 }
 ```
 
-?: Above, we have an `Example` class. If we wanted to add a method called `info()` within the `Example` class, how would we write it?
+Above, we have an `Example` class. If we wanted to add a method called `info()` within the `Example` class, how would we write it?
 
 ( ) `function info() { }` (X) `info() { }` ( ) `get info() { }` ( ) `set info() { }`
 
@@ -59,11 +63,13 @@ class Example {
 
 ( ) `this.text() = ‘hello world!’` ( ) `this.text(‘hello world!’)` (X) `this.text = ‘hello world!’` ( ) `example.text = ‘hello world!’`
 
+?:
+
 ```javascript
 let example = new Example()
 ```
 
-?: If the `example` variable is assigned to a new instance of Example, how would we access the info() method using `example`? Write the exact code needed.
+If the `example` variable is assigned to a new instance of Example, how would we access the info() method using `example`? Write the exact code needed.
 
 ( ) `this.info` ( ) `example.info` ( ) `this.info()` (X) `example.info()`
 
@@ -79,6 +85,8 @@ let example = new Example()
 
 (X) True ( ) False
 
+?:
+
 ```javascript
 class House {
   constructor(address, owner) {
@@ -93,7 +101,7 @@ house1.owner = 'Ada Lovelace';
 house2.address = '1440 G St NW';
 ```
 
-?: Imagine the code above executing. At the end, what is the value of the `address` property of `house1`?
+Imagine the code above executing. At the end, what is the value of the `address` property of `house1`?
 
 (X) ‘22 Elm St’ ( ) ‘11 Broadway’ ( ) ‘1440 G St NW’ ( ) ‘Ada Lovelace’
 
