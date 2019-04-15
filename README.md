@@ -20,11 +20,17 @@ How would we create an instance of the above `class`?
 
 ?: If we created an instance of Tree and stored it as the variable `oak`, how would we access the `type` property?
 
-[ ] `oak(‘type’)` [ ] `oak.properties(‘type’)` [X] `oak[‘type’]` [X] `oak.type`
+[ ] `oak(‘type’)`
+[ ] `oak.properties(‘type’)`
+[X] `oak[‘type’]`
+[X] `oak.type`
 
 ?: Once that instance is created, how would we modify the `type` property?
 
-[X] `oak.type = ‘maple’` [ ] `oak.properties(‘type’) = ‘maple’` [ ] `oak(‘type’) = ‘maple’` [X] `oak[‘type’] = ‘maple’`
+[X] `oak.type = ‘maple’`
+[ ] `oak.properties(‘type’) = ‘maple’`
+[ ] `oak(‘type’) = ‘maple’`
+[X] `oak[‘type’] = ‘maple’`
 
 ?:
 
