@@ -101,7 +101,7 @@ class House {
   }
 }
 
-let house1 = new House('81 Prospect St', 'Alan Turing');
+let house1 = new House('22 Elm St', 'Alan Turing');
 let house2 = new House('11 Broadway', 'Grace Hopper');
 house1.owner = 'Ada Lovelace';
 house2.address = '1440 G St NW';
